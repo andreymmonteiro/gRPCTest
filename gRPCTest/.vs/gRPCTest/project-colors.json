@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3556a2ca-b951-4367-be06-7861509200f6": {
+      "ProjectGuid": "3556a2ca-b951-4367-be06-7861509200f6",
+      "DisplayName": "gRPCTest",
+      "ColorIndex": 0
+    },
+    "920606e6-a669-49e1-8a60-f0af31d633cc": {
+      "ProjectGuid": "920606e6-a669-49e1-8a60-f0af31d633cc",
+      "DisplayName": "Data",
+      "ColorIndex": 1
+    },
+    "b2818a1f-352c-4c66-810b-e7d10f679eaf": {
+      "ProjectGuid": "b2818a1f-352c-4c66-810b-e7d10f679eaf",
+      "DisplayName": "Domain",
+      "ColorIndex": 2
+    },
+    "415c02c5-53b3-42d7-af6d-c55328ce456b": {
+      "ProjectGuid": "415c02c5-53b3-42d7-af6d-c55328ce456b",
+      "DisplayName": "Infraestructure",
+      "ColorIndex": 3
+    },
+    "786d62c7-c11a-4f94-ae94-27fc649991a3": {
+      "ProjectGuid": "786d62c7-c11a-4f94-ae94-27fc649991a3",
+      "DisplayName": "Cross Cuttting",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "b7264fd2-8476-4e84-8087-31f3548210a7": {
+      "ProjectGuid": "b7264fd2-8476-4e84-8087-31f3548210a7",
+      "DisplayName": "gRPC.TESTE",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

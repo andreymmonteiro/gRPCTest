@@ -1,0 +1,11 @@
+C:\Estudos\gRPCTest\Infraestructure\bin\Debug\net5.0\Infraestructure.deps.json
+C:\Estudos\gRPCTest\Infraestructure\bin\Debug\net5.0\Infraestructure.dll
+C:\Estudos\gRPCTest\Infraestructure\bin\Debug\net5.0\ref\Infraestructure.dll
+C:\Estudos\gRPCTest\Infraestructure\bin\Debug\net5.0\Infraestructure.pdb
+C:\Estudos\gRPCTest\Infraestructure\obj\Debug\net5.0\Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Estudos\gRPCTest\Infraestructure\obj\Debug\net5.0\Infraestructure.AssemblyInfoInputs.cache
+C:\Estudos\gRPCTest\Infraestructure\obj\Debug\net5.0\Infraestructure.AssemblyInfo.cs
+C:\Estudos\gRPCTest\Infraestructure\obj\Debug\net5.0\Infraestructure.csproj.CoreCompileInputs.cache
+C:\Estudos\gRPCTest\Infraestructure\obj\Debug\net5.0\Infraestructure.dll
+C:\Estudos\gRPCTest\Infraestructure\obj\Debug\net5.0\ref\Infraestructure.dll
+C:\Estudos\gRPCTest\Infraestructure\obj\Debug\net5.0\Infraestructure.pdb

@@ -1,0 +1,11 @@
+C:\Estudos\gRPCTest\Cross Cuttting\bin\Debug\net5.0\Cross Cuttting.deps.json
+C:\Estudos\gRPCTest\Cross Cuttting\bin\Debug\net5.0\Cross Cuttting.dll
+C:\Estudos\gRPCTest\Cross Cuttting\bin\Debug\net5.0\ref\Cross Cuttting.dll
+C:\Estudos\gRPCTest\Cross Cuttting\bin\Debug\net5.0\Cross Cuttting.pdb
+C:\Estudos\gRPCTest\Cross Cuttting\obj\Debug\net5.0\Cross Cuttting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Estudos\gRPCTest\Cross Cuttting\obj\Debug\net5.0\Cross Cuttting.AssemblyInfoInputs.cache
+C:\Estudos\gRPCTest\Cross Cuttting\obj\Debug\net5.0\Cross Cuttting.AssemblyInfo.cs
+C:\Estudos\gRPCTest\Cross Cuttting\obj\Debug\net5.0\Cross Cuttting.csproj.CoreCompileInputs.cache
+C:\Estudos\gRPCTest\Cross Cuttting\obj\Debug\net5.0\Cross Cuttting.dll
+C:\Estudos\gRPCTest\Cross Cuttting\obj\Debug\net5.0\ref\Cross Cuttting.dll
+C:\Estudos\gRPCTest\Cross Cuttting\obj\Debug\net5.0\Cross Cuttting.pdb
