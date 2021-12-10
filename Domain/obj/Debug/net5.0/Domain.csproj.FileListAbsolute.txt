@@ -9,4 +9,3 @@ C:\Estudos\gRPCTest\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cach
 C:\Estudos\gRPCTest\Domain\obj\Debug\net5.0\Domain.dll
 C:\Estudos\gRPCTest\Domain\obj\Debug\net5.0\ref\Domain.dll
 C:\Estudos\gRPCTest\Domain\obj\Debug\net5.0\Domain.pdb
-C:\Estudos\gRPCTest\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache

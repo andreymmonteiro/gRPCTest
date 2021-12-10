@@ -2,11 +2,14 @@ C:\Estudos\gRPCTest\Infraestructure\bin\Debug\net5.0\Service.deps.json
 C:\Estudos\gRPCTest\Infraestructure\bin\Debug\net5.0\Service.dll
 C:\Estudos\gRPCTest\Infraestructure\bin\Debug\net5.0\ref\Service.dll
 C:\Estudos\gRPCTest\Infraestructure\bin\Debug\net5.0\Service.pdb
+C:\Estudos\gRPCTest\Infraestructure\bin\Debug\net5.0\Domain.dll
+C:\Estudos\gRPCTest\Infraestructure\bin\Debug\net5.0\Domain.pdb
+C:\Estudos\gRPCTest\Infraestructure\obj\Debug\net5.0\Service.csproj.AssemblyReference.cache
 C:\Estudos\gRPCTest\Infraestructure\obj\Debug\net5.0\Service.GeneratedMSBuildEditorConfig.editorconfig
 C:\Estudos\gRPCTest\Infraestructure\obj\Debug\net5.0\Service.AssemblyInfoInputs.cache
 C:\Estudos\gRPCTest\Infraestructure\obj\Debug\net5.0\Service.AssemblyInfo.cs
 C:\Estudos\gRPCTest\Infraestructure\obj\Debug\net5.0\Service.csproj.CoreCompileInputs.cache
+C:\Estudos\gRPCTest\Infraestructure\obj\Debug\net5.0\Service.csproj.CopyComplete
 C:\Estudos\gRPCTest\Infraestructure\obj\Debug\net5.0\Service.dll
 C:\Estudos\gRPCTest\Infraestructure\obj\Debug\net5.0\ref\Service.dll
 C:\Estudos\gRPCTest\Infraestructure\obj\Debug\net5.0\Service.pdb
-C:\Estudos\gRPCTest\Infraestructure\obj\Debug\net5.0\Service.csproj.AssemblyReference.cache

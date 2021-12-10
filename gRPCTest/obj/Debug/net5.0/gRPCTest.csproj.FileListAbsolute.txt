@@ -7,6 +7,8 @@ C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\gRPCTest.runtimeconfig.dev.json
 C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\gRPCTest.dll
 C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\ref\gRPCTest.dll
 C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\gRPCTest.pdb
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\AutoMapper.dll
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Google.Protobuf.dll
 C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Grpc.AspNetCore.Server.dll
 C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Grpc.AspNetCore.Server.ClientFactory.dll
@@ -14,6 +16,20 @@ C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Grpc.Core.Api.dll
 C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Grpc.Net.Client.dll
 C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Grpc.Net.ClientFactory.dll
 C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Grpc.Net.Common.dll
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\MySqlConnector.dll
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Cross Cuttting.dll
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Data.dll
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Domain.dll
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Cross Cuttting.pdb
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Data.pdb
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Domain.pdb
 C:\Estudos\gRPCTest\gRPCTest\obj\Debug\net5.0\gRPCTest.csproj.AssemblyReference.cache
 C:\Estudos\gRPCTest\gRPCTest\obj\Debug\net5.0\gRPCTest.GeneratedMSBuildEditorConfig.editorconfig
 C:\Estudos\gRPCTest\gRPCTest\obj\Debug\net5.0\gRPCTest.AssemblyInfoInputs.cache
