@@ -23,9 +23,16 @@ namespace Data.Repositories
 
         public async Task<bool> DeleteAsync(Guid id)
         {
-            var entity = await dataSet.AsNoTracking().FirstOrDefaultAsync(entity => entity.id == id);
-            context.Remove(entity);
-            return await context.SaveChangesAsync() > 0;
+            try 
+            {
+                var entity = await dataSet.AsNoTracking().FirstOrDefaultAsync(entity => entity.id == id);
+                context.Remove(entity);
+                return await context.SaveChangesAsync() > 0;
+            }catch (Exception ex) 
+            {
+                throw ex;
+            }
+            
         }
 
         public async Task<T> InsertAsync(T entity)
@@ -43,7 +50,7 @@ namespace Data.Repositories
             {
                 throw ex;
             }
-            
+            entity = null;
             return entity;
         }
 

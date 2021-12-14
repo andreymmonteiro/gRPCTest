@@ -22,29 +22,38 @@ namespace Service
             this.mapper = mapper;
         }
 
-        public Task<bool> Delete(Guid id)
+        public async Task<bool> Delete(Guid id)
         {
-            throw new NotImplementedException();
+            var result = await _repository.DeleteAsync(id);
+            return result;
         }
 
-        public Task<UserDto> Get()
+        public async Task<UserDto> Get()
         {
-            throw new NotImplementedException();
+            var result = await _repository.SelectAsync();
+            var userDto = mapper.Map<UserDto>(result);
+            return userDto;
         }
 
-        public Task<UserDto> Get(Guid id)
+        public async Task<UserDto> Get(Guid id)
         {
-            throw new NotImplementedException();        
+            var result = await _repository.SelectAsync(id);
+            var userDto = mapper.Map<UserDto>(result);
+            return userDto;
         }
 
-        public Task<UserCreateResultDto> Post(UserCreateDto user)
+        public async Task<UserCreateResultDto> Post(UserCreateDto user)
         {
-            throw new NotImplementedException();
+            var userEntity = mapper.Map<UserEntity>(user);
+            var result = await _repository.InsertAsync(userEntity);
+            return mapper.Map<UserCreateResultDto>(result);
         }
 
-        public Task<UserUpdateResultDto> Put(UserUpdateDto user)
+        public async Task<UserUpdateResultDto> Put(UserUpdateDto user)
         {
-            throw new NotImplementedException();
+            var userEntity = mapper.Map<UserEntity>(user);
+            var result = await _repository.UpdateAsync(userEntity);
+            return mapper.Map<UserUpdateResultDto>(result);
         }
     }
 }

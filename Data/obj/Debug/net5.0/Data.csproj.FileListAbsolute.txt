@@ -11,7 +11,6 @@ C:\Estudos\gRPCTest\Data\obj\Debug\net5.0\Data.GeneratedMSBuildEditorConfig.edit
 C:\Estudos\gRPCTest\Data\obj\Debug\net5.0\Data.AssemblyInfoInputs.cache
 C:\Estudos\gRPCTest\Data\obj\Debug\net5.0\Data.AssemblyInfo.cs
 C:\Estudos\gRPCTest\Data\obj\Debug\net5.0\Data.csproj.CoreCompileInputs.cache
-C:\Estudos\gRPCTest\Data\obj\Debug\net5.0\Data.csproj.CopyComplete
 C:\Estudos\gRPCTest\Data\obj\Debug\net5.0\Data.dll
 C:\Estudos\gRPCTest\Data\obj\Debug\net5.0\ref\Data.dll
 C:\Estudos\gRPCTest\Data\obj\Debug\net5.0\Data.pdb
