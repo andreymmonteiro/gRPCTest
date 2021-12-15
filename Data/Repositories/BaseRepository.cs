@@ -25,7 +25,7 @@ namespace Data.Repositories
         {
             try 
             {
-                var entity = await dataSet.AsNoTracking().FirstOrDefaultAsync(entity => entity.id == id);
+                var entity = await dataSet.FirstOrDefaultAsync(entity => entity.id == id);
                 context.Remove(entity);
                 return await context.SaveChangesAsync() > 0;
             }catch (Exception ex) 

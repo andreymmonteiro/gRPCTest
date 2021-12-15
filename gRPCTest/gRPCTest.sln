@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "..\Infraestructu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cross Cuttting", "..\Cross Cuttting\Cross Cuttting.csproj", "{786D62C7-C11A-4F94-AE94-27FC649991A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TESTE.Data", "..\TESTE.Data\TESTE.Data.csproj", "{72BD329A-5C0C-4662-9B47-0F76FCFF9E7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{786D62C7-C11A-4F94-AE94-27FC649991A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{786D62C7-C11A-4F94-AE94-27FC649991A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{786D62C7-C11A-4F94-AE94-27FC649991A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72BD329A-5C0C-4662-9B47-0F76FCFF9E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72BD329A-5C0C-4662-9B47-0F76FCFF9E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72BD329A-5C0C-4662-9B47-0F76FCFF9E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72BD329A-5C0C-4662-9B47-0F76FCFF9E7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
