@@ -34,6 +34,7 @@
       "gRPCTest/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "Grpc.AspNetCore": "2.34.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",

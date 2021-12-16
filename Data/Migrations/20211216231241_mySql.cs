@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Data.Migrations
 {
-    public partial class teste : Migration
+    public partial class mySql : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -22,6 +22,8 @@ namespace Data.Migrations
                     age = table.Column<int>(type: "int", nullable: false),
                     companyOrPerson = table.Column<string>(type: "varchar(1)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
+                    password = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
                     createDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     updateDate = table.Column<DateTime>(type: "datetime(6)", nullable: false)
                 },
@@ -30,6 +32,11 @@ namespace Data.Migrations
                     table.PrimaryKey("PK_User", x => x.id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.InsertData(
+                table: "User",
+                columns: new[] { "id", "age", "companyOrPerson", "createDate", "document", "name", "password", "updateDate" },
+                values: new object[] { new Guid("9b747618-ea47-43b6-b43f-e94aa4b67c4e"), 29, "F", new DateTime(2021, 12, 16, 20, 12, 41, 234, DateTimeKind.Local).AddTicks(4663), "9106989784", "Andrey Monteiro", "masterkey", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) });
 
             migrationBuilder.CreateIndex(
                 name: "IX_User_document",

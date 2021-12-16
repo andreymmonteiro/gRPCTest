@@ -13,6 +13,7 @@ C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\ref\TESTE.Service.dll
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\TESTE.Service.pdb
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\AutoMapper.dll
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\Castle.Core.dll
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\Faker.NETCore.dll
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
@@ -33,6 +34,7 @@ C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\Microsoft.TestPlatform.Commun
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\Microsoft.TestPlatform.CrossPlatEngine.dll
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\Microsoft.TestPlatform.Utilities.dll
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\Moq.dll
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\MySqlConnector.dll
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\NuGet.Frameworks.dll

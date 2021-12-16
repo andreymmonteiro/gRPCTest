@@ -13,9 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "..\Infraestructu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cross Cuttting", "..\Cross Cuttting\Cross Cuttting.csproj", "{786D62C7-C11A-4F94-AE94-27FC649991A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TESTE.Data", "..\TESTE.Data\TESTE.Data.csproj", "{72BD329A-5C0C-4662-9B47-0F76FCFF9E7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TESTE.Data", "..\TESTE.Data\TESTE.Data.csproj", "{72BD329A-5C0C-4662-9B47-0F76FCFF9E7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TESTE.Service", "..\TESTE.Service\TESTE.Service.csproj", "{9CC1B838-792C-4728-89FA-82A854616AC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TESTE.Service", "..\TESTE.Service\TESTE.Service.csproj", "{9CC1B838-792C-4728-89FA-82A854616AC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

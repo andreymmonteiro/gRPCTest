@@ -28,10 +28,10 @@ namespace Service
             return result;
         }
 
-        public async Task<UserDto> Get()
+        public async Task<List<UserDto>> Get()
         {
             var result = await _repository.SelectAsync();
-            var userDto = mapper.Map<UserDto>(result);
+            var userDto = mapper.Map<List<UserDto>>(result);
             return userDto;
         }
 

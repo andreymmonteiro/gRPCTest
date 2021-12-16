@@ -9,7 +9,7 @@ namespace Domain.Services.User
 {
     public interface IUserService
     {
-        Task<UserDto> Get();
+        Task<List<UserDto>> Get();
         Task<UserDto> Get(Guid id);
         Task<UserCreateResultDto> Post(UserCreateDto user);
         Task<UserUpdateResultDto> Put(UserUpdateDto user);

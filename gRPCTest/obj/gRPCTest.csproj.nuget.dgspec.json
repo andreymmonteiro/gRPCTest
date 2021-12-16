@@ -260,6 +260,10 @@
               "target": "Package",
               "version": "[10.1.1, )"
             },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Grpc.AspNetCore": {
               "target": "Package",
               "version": "[2.34.0, )"

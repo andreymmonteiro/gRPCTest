@@ -35,7 +35,17 @@
       "ProjectGuid": "b7264fd2-8476-4e84-8087-31f3548210a7",
       "DisplayName": "gRPC.TESTE",
       "ColorIndex": 5
+    },
+    "72bd329a-5c0c-4662-9b47-0f76fcff9e7f": {
+      "ProjectGuid": "72bd329a-5c0c-4662-9b47-0f76fcff9e7f",
+      "DisplayName": "TESTE.Data",
+      "ColorIndex": 6
+    },
+    "9cc1b838-792c-4728-89fa-82a854616ac9": {
+      "ProjectGuid": "9cc1b838-792c-4728-89fa-82a854616ac9",
+      "DisplayName": "TESTE.Service",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 8
 }

@@ -41,6 +41,9 @@ namespace Data.Migrations
                         .HasMaxLength(200)
                         .HasColumnType("varchar(200)");
 
+                    b.Property<string>("password")
+                        .HasColumnType("longtext");
+
                     b.Property<DateTime>("updateDate")
                         .HasColumnType("datetime(6)");
 
@@ -50,6 +53,19 @@ namespace Data.Migrations
                         .IsUnique();
 
                     b.ToTable("User");
+
+                    b.HasData(
+                        new
+                        {
+                            id = new Guid("9b747618-ea47-43b6-b43f-e94aa4b67c4e"),
+                            age = 29,
+                            companyOrPerson = "F",
+                            createDate = new DateTime(2021, 12, 16, 20, 12, 41, 234, DateTimeKind.Local).AddTicks(4663),
+                            document = "9106989784",
+                            name = "Andrey Monteiro",
+                            password = "masterkey",
+                            updateDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        });
                 });
 #pragma warning restore 612, 618
         }
