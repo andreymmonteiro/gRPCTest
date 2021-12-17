@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Cross_Cuttting.Mapper.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Cross_Cuttting.Mapper.ConfigureAutoMapper
 {
-    public class AutoMapperFixture : IDisposable
+    public class AutoMapperFixture : IMapperService, IDisposable 
     {
         public void Dispose()
         {

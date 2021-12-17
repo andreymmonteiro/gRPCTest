@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Cross_Cuttting.Mapper.Interface;
 using Domain.Dtos;
 using Domain.Entities;
 using Domain.Interfaces;
@@ -16,10 +17,10 @@ namespace Service
         private readonly IRepository<UserEntity> _repository;
         private readonly IMapper mapper;
 
-        public UserService(IRepository<UserEntity> repository, IMapper mapper)
+        public UserService(IRepository<UserEntity> repository, IMapperService mapper)
         {
             _repository = repository;
-            this.mapper = mapper;
+            this.mapper = mapper.GetMapper();
         }
 
         public async Task<bool> Delete(Guid id)

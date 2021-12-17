@@ -1,6 +1,9 @@
 ﻿using AutoMapper;
 using Cross_Cuttting.Mapper.ConfigureAutoMapper;
+using Cross_Cuttting.Mapper.Interface;
 using Data.Context;
+using gRPCTest.Mapper;
+using gRPCTest.Mapper.Interface;
 using gRPCTest.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -55,9 +58,12 @@ namespace gRPCTest
         }
         private void CreateAutoMapper(IServiceCollection services) 
         {
-            IMapper mapper = new AutoMapperFixture().GetMapper();
-            IMapper mapperProto = new AutoMapperFixture().GetMapper();
-            services.AddSingleton(mapper);
+
+            services.AddTransient<IMapperGrpc, AutoMapperFixtureGrpc>();
+            services.AddTransient<IMapperService, AutoMapperFixture>();
+            //IMapper mapper = new AutoMapperFixture().GetMapper();
+            //IMapper mapperProto = new AutoMapperFixture().GetMapper();
+            //services.AddSingleton(mapper);
             services.AddAutoMapper(typeof(Startup));
         }
     }

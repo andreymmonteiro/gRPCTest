@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Domain.Services.User;
 using Grpc.Core;
+using gRPCTest.Mapper.Interface;
 using gRPCTest.Protos;
 using System;
 using System.Threading.Tasks;
@@ -11,10 +12,10 @@ namespace gRPCTest.Services
     {
         private readonly IUserService service;
         private readonly IMapper mapper;
-        public UserService(IUserService service, IMapper mapper)
+        public UserService(IUserService service, IMapperGrpc mapper)
         {
             this.service = service;
-            this.mapper = mapper;
+            this.mapper = mapper.GetMapper();
         }
         public override async Task<UserProDto> Get(GetUserRequest request, ServerCallContext context)
         {
