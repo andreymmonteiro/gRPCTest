@@ -10,6 +10,7 @@ namespace gRPCTest.Mapper
         {
             CreateMap<UserDto, UserProDto>().ReverseMap();
             CreateMap<UserCreateDto, CreateUserRequest>().ReverseMap();
+            CreateMap<UserCreateResultDto, UserCreateResultProtoDto>();
         }
     }
 }

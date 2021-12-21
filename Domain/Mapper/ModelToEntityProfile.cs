@@ -1,13 +1,8 @@
 ﻿using AutoMapper;
 using Domain.Entities;
 using Domain.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Cross_Cuttting.Mapper
+namespace Domain.Mapper
 {
     public class ModelToEntityProfile : Profile
     {

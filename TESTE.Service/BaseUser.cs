@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using Cross_Cuttting.Mapper.ConfigureAutoMapper;
 using Domain.Entities;
+using Domain.Mapper.ConfigureAutoMapper;
 using Domain.Services.User;
 using Moq;
 using System;

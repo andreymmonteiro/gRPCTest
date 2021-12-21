@@ -4,158 +4,6 @@
     "C:\\Estudos\\gRPCTest\\Infraestructure\\Service.csproj": {}
   },
   "projects": {
-    "C:\\Estudos\\gRPCTest\\Cross Cuttting\\Cross Cuttting.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Estudos\\gRPCTest\\Cross Cuttting\\Cross Cuttting.csproj",
-        "projectName": "Cross Cuttting",
-        "projectPath": "C:\\Estudos\\gRPCTest\\Cross Cuttting\\Cross Cuttting.csproj",
-        "packagesPath": "C:\\Users\\Workstation\\.nuget\\packages\\",
-        "outputPath": "C:\\Estudos\\gRPCTest\\Cross Cuttting\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Workstation\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "C:\\Estudos\\gRPCTest\\Data\\Data.csproj": {
-                "projectPath": "C:\\Estudos\\gRPCTest\\Data\\Data.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[10.1.1, )"
-            },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[8.1.1, )"
-            },
-            "Microsoft.Extensions.DependencyInjection.Abstractions": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Estudos\\gRPCTest\\Data\\Data.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Estudos\\gRPCTest\\Data\\Data.csproj",
-        "projectName": "Data",
-        "projectPath": "C:\\Estudos\\gRPCTest\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\Workstation\\.nuget\\packages\\",
-        "outputPath": "C:\\Estudos\\gRPCTest\\Data\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Workstation\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "C:\\Estudos\\gRPCTest\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Estudos\\gRPCTest\\Domain\\Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.12, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.12, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[5.0.2, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "C:\\Estudos\\gRPCTest\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -194,6 +42,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -240,9 +98,6 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Estudos\\gRPCTest\\Cross Cuttting\\Cross Cuttting.csproj": {
-                "projectPath": "C:\\Estudos\\gRPCTest\\Cross Cuttting\\Cross Cuttting.csproj"
-              },
               "C:\\Estudos\\gRPCTest\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Estudos\\gRPCTest\\Domain\\Domain.csproj"
               }

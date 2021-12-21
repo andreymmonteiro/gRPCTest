@@ -27,7 +27,9 @@ C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\System.Diagnostics.DiagnosticSourc
 C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Cross Cuttting.dll
 C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Data.dll
 C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Domain.dll
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Service.dll
 C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Cross Cuttting.pdb
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Service.pdb
 C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Data.pdb
 C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Domain.pdb
 C:\Estudos\gRPCTest\gRPCTest\obj\Debug\net5.0\gRPCTest.csproj.AssemblyReference.cache

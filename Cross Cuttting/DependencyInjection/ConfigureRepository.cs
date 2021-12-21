@@ -2,12 +2,9 @@
 using Data.Repositories;
 using Data.Repositories.User;
 using Domain.Interfaces;
+using Domain.Services.User;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Service;
 
 namespace Cross_Cuttting.DependencyInjection
 {
@@ -17,6 +14,7 @@ namespace Cross_Cuttting.DependencyInjection
         {
             service.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
             service.AddScoped<IUserRepository, UserImplementation>();
+            service.AddScoped<IUserService, UserService>();
         }
     }
 }

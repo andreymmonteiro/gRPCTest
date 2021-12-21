@@ -9,7 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
     <Protobuf Include="Protos\User.proto" GrpcServices="Server" />
   </ItemGroup>
 
@@ -21,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Cross Cuttting\Cross Cuttting.csproj" />
+    <ProjectReference Include="..\Infraestructure\Service.csproj" />
   </ItemGroup>
 
 </Project>

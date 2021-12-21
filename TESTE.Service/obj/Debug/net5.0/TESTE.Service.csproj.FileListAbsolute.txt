@@ -113,9 +113,11 @@ C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\zh-Hant\Microsoft.VisualStudi
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\Cross Cuttting.dll
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\Data.dll
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\Domain.dll
+C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\Service.dll
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\Cross Cuttting.pdb
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\Data.pdb
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\Domain.pdb
+C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\Service.pdb
 C:\Estudos\gRPCTest\TESTE.Service\obj\Debug\net5.0\TESTE.Service.csproj.AssemblyReference.cache
 C:\Estudos\gRPCTest\TESTE.Service\obj\Debug\net5.0\TESTE.Service.GeneratedMSBuildEditorConfig.editorconfig
 C:\Estudos\gRPCTest\TESTE.Service\obj\Debug\net5.0\TESTE.Service.AssemblyInfoInputs.cache

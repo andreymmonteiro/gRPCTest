@@ -1,7 +1,6 @@
-﻿using AutoMapper;
-using Cross_Cuttting.Mapper.ConfigureAutoMapper;
-using Cross_Cuttting.Mapper.Interface;
-using Data.Context;
+﻿using Data.Context;
+using Domain.Mapper.ConfigureAutoMapper;
+using Domain.Mapper.Interface;
 using gRPCTest.Mapper;
 using gRPCTest.Mapper.Interface;
 using gRPCTest.Services;
@@ -32,6 +31,8 @@ namespace gRPCTest
                                                     ServerVersion.Parse("5.7-mysql")), ServiceLifetime.Transient);
 
             CreateAutoMapper(services);
+            Cross_Cuttting.DependencyInjection.ConfigureRepository.ConfigureIndependencyInjection(services);
+            
             services.AddGrpc();
         }
 
@@ -61,9 +62,6 @@ namespace gRPCTest
 
             services.AddTransient<IMapperGrpc, AutoMapperFixtureGrpc>();
             services.AddTransient<IMapperService, AutoMapperFixture>();
-            //IMapper mapper = new AutoMapperFixture().GetMapper();
-            //IMapper mapperProto = new AutoMapperFixture().GetMapper();
-            //services.AddSingleton(mapper);
             services.AddAutoMapper(typeof(Startup));
         }
     }

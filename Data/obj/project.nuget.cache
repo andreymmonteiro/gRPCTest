@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "n752eJqof2Caf5Ppr5i6WGwn4KDPTHn4bNBYoVG8VW1DpOHAfKjsMK/BMJeg1lVw/Qjj/MY5Itc+tmyw9bIguQ==",
+  "dgSpecHash": "S6lgt1me04ITHerfhyOimIGJGUOzTvTcKHMJCBkPB2EgFNx7KOMNClx71n1NqXeV7S8+zEUWDpL443uJlaXliA==",
   "success": true,
   "projectFilePath": "C:\\Estudos\\gRPCTest\\Data\\Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Workstation\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Workstation\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\Workstation\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Workstation\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Workstation\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.12\\microsoft.entityframeworkcore.5.0.12.nupkg.sha512",
@@ -24,7 +26,8 @@
     "C:\\Users\\Workstation\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\5.0.2\\pomelo.entityframeworkcore.mysql.5.0.2.nupkg.sha512",
     "C:\\Users\\Workstation\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Workstation\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
-    "C:\\Users\\Workstation\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+    "C:\\Users\\Workstation\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "C:\\Users\\Workstation\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

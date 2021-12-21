@@ -1,19 +1,16 @@
 ﻿using AutoMapper;
-using Cross_Cuttting.Mapper.Interface;
+using Domain.Mapper.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cross_Cuttting.Mapper.ConfigureAutoMapper
+namespace Domain.Mapper.ConfigureAutoMapper
 {
-    public class AutoMapperFixture : IMapperService, IDisposable 
+    public class AutoMapperFixture : IMapperService
     {
-        public void Dispose()
-        {
-            throw new NotImplementedException();
-        }
+        
         public IMapper GetMapper() 
         {
             var config = new AutoMapper.MapperConfiguration(map => 

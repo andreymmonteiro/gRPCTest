@@ -11,6 +11,8 @@ C:\Estudos\gRPCTest\TESTE.Data\bin\Debug\net5.0\TESTE.Data.runtimeconfig.dev.jso
 C:\Estudos\gRPCTest\TESTE.Data\bin\Debug\net5.0\TESTE.Data.dll
 C:\Estudos\gRPCTest\TESTE.Data\bin\Debug\net5.0\ref\TESTE.Data.dll
 C:\Estudos\gRPCTest\TESTE.Data\bin\Debug\net5.0\TESTE.Data.pdb
+C:\Estudos\gRPCTest\TESTE.Data\bin\Debug\net5.0\AutoMapper.dll
+C:\Estudos\gRPCTest\TESTE.Data\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Estudos\gRPCTest\TESTE.Data\bin\Debug\net5.0\Faker.NETCore.dll
 C:\Estudos\gRPCTest\TESTE.Data\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Estudos\gRPCTest\TESTE.Data\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll

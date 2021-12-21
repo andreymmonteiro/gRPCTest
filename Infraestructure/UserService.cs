@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using Cross_Cuttting.Mapper.Interface;
 using Domain.Dtos;
 using Domain.Entities;
 using Domain.Interfaces;
+using Domain.Mapper.Interface;
 using Domain.Services.User;
 using System;
 using System.Collections.Generic;

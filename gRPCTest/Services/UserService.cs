@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Domain.Dtos;
+using Domain.Interfaces;
 using Domain.Services.User;
 using Grpc.Core;
 using gRPCTest.Mapper.Interface;
@@ -21,10 +23,17 @@ namespace gRPCTest.Services
         {
             Guid id = new Guid(request.Id);
             var result = await service.Get(id);
-
-            return mapper.Map<UserProDto>(result);
-
-            //return base.Get(request, context);
+            var userProto = mapper.Map<UserProDto>(result);
+            return userProto;
         }
+
+        public override async Task<UserCreateResultProtoDto> Post(CreateUserRequest request, ServerCallContext context)
+        {
+            UserCreateDto userCreateDto = mapper.Map<UserCreateDto>(request);
+            var result = await service.Post(userCreateDto);
+            return mapper.Map<UserCreateResultProtoDto>(result);
+        }
+
+       
     }
 }

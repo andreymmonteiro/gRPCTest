@@ -4,7 +4,9 @@ C:\Estudos\gRPCTest\Cross Cuttting\bin\Debug\net5.0\ref\Cross Cuttting.dll
 C:\Estudos\gRPCTest\Cross Cuttting\bin\Debug\net5.0\Cross Cuttting.pdb
 C:\Estudos\gRPCTest\Cross Cuttting\bin\Debug\net5.0\Data.dll
 C:\Estudos\gRPCTest\Cross Cuttting\bin\Debug\net5.0\Domain.dll
+C:\Estudos\gRPCTest\Cross Cuttting\bin\Debug\net5.0\Service.dll
 C:\Estudos\gRPCTest\Cross Cuttting\bin\Debug\net5.0\Data.pdb
+C:\Estudos\gRPCTest\Cross Cuttting\bin\Debug\net5.0\Service.pdb
 C:\Estudos\gRPCTest\Cross Cuttting\bin\Debug\net5.0\Domain.pdb
 C:\Estudos\gRPCTest\Cross Cuttting\obj\Debug\net5.0\Cross Cuttting.csproj.AssemblyReference.cache
 C:\Estudos\gRPCTest\Cross Cuttting\obj\Debug\net5.0\Cross Cuttting.GeneratedMSBuildEditorConfig.editorconfig

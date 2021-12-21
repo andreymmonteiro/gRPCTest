@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cross_Cuttting.Mapper.Interface
+namespace Domain.Mapper.Interface
 {
     public interface IMapperService
     {

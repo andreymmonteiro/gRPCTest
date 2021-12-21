@@ -4,12 +4,9 @@ using System;
 
 namespace gRPCTest.Mapper
 {
-    public class AutoMapperFixtureGrpc : IMapperGrpc, IDisposable
+    public class AutoMapperFixtureGrpc : IMapperGrpc
     {
-        public void Dispose()
-        {
-            throw new NotImplementedException();
-        }
+        
 
         public IMapper GetMapper() 
         {

@@ -11,7 +11,8 @@
           "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "Data": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Service": "1.0.0"
         },
         "runtime": {
           "Cross Cuttting.dll": {}
@@ -223,8 +224,21 @@
         }
       },
       "Domain/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1"
+        },
         "runtime": {
           "Domain.dll": {}
+        }
+      },
+      "Service/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "Service.dll": {}
         }
       }
     }
@@ -395,6 +409,11 @@
       "sha512": ""
     },
     "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

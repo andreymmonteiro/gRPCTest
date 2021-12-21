@@ -1,6 +1,6 @@
-﻿using Cross_Cuttting.Mapper.ConfigureAutoMapper;
-using Domain.Dtos;
+﻿using Domain.Dtos;
 using Domain.Entities;
+using Domain.Mapper.ConfigureAutoMapper;
 using Domain.Models;
 using System;
 using System.Collections.Generic;
