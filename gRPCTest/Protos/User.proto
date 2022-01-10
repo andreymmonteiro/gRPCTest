@@ -5,9 +5,16 @@ option csharp_namespace = "gRPCTest.Protos";
 service User
 {
 	rpc Get(GetUserRequest)returns(UserProDto);
+    rpc GetAll(GetAttUserRequest)returns(ListUserProDto);
     rpc Post(CreateUserRequest) returns(UserCreateResultProtoDto);
     rpc Put(UpdateUserRequest) returns(UserUpdateResultProtoDto);
     rpc Delete(DeleteUserRequest) returns(DeleteUserResponse);
+}
+message GetAttUserRequest{
+
+}
+message ListUserProDto{
+    repeated UserProDto UsersProDto = 1;
 }
 message GetUserRequest
 {

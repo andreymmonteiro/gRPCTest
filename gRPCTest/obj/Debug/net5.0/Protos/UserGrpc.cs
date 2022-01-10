@@ -44,6 +44,8 @@ namespace gRPCTest.Protos {
 
     static readonly grpc::Marshaller<global::gRPCTest.Protos.GetUserRequest> __Marshaller_GetUserRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPCTest.Protos.GetUserRequest.Parser));
     static readonly grpc::Marshaller<global::gRPCTest.Protos.UserProDto> __Marshaller_UserProDto = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPCTest.Protos.UserProDto.Parser));
+    static readonly grpc::Marshaller<global::gRPCTest.Protos.GetAttUserRequest> __Marshaller_GetAttUserRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPCTest.Protos.GetAttUserRequest.Parser));
+    static readonly grpc::Marshaller<global::gRPCTest.Protos.ListUserProDto> __Marshaller_ListUserProDto = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPCTest.Protos.ListUserProDto.Parser));
     static readonly grpc::Marshaller<global::gRPCTest.Protos.CreateUserRequest> __Marshaller_CreateUserRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPCTest.Protos.CreateUserRequest.Parser));
     static readonly grpc::Marshaller<global::gRPCTest.Protos.UserCreateResultProtoDto> __Marshaller_UserCreateResultProtoDto = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPCTest.Protos.UserCreateResultProtoDto.Parser));
     static readonly grpc::Marshaller<global::gRPCTest.Protos.UpdateUserRequest> __Marshaller_UpdateUserRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::gRPCTest.Protos.UpdateUserRequest.Parser));
@@ -57,6 +59,13 @@ namespace gRPCTest.Protos {
         "Get",
         __Marshaller_GetUserRequest,
         __Marshaller_UserProDto);
+
+    static readonly grpc::Method<global::gRPCTest.Protos.GetAttUserRequest, global::gRPCTest.Protos.ListUserProDto> __Method_GetAll = new grpc::Method<global::gRPCTest.Protos.GetAttUserRequest, global::gRPCTest.Protos.ListUserProDto>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetAll",
+        __Marshaller_GetAttUserRequest,
+        __Marshaller_ListUserProDto);
 
     static readonly grpc::Method<global::gRPCTest.Protos.CreateUserRequest, global::gRPCTest.Protos.UserCreateResultProtoDto> __Method_Post = new grpc::Method<global::gRPCTest.Protos.CreateUserRequest, global::gRPCTest.Protos.UserCreateResultProtoDto>(
         grpc::MethodType.Unary,
@@ -94,6 +103,11 @@ namespace gRPCTest.Protos {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
+      public virtual global::System.Threading.Tasks.Task<global::gRPCTest.Protos.ListUserProDto> GetAll(global::gRPCTest.Protos.GetAttUserRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
       public virtual global::System.Threading.Tasks.Task<global::gRPCTest.Protos.UserCreateResultProtoDto> Post(global::gRPCTest.Protos.CreateUserRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
@@ -117,6 +131,7 @@ namespace gRPCTest.Protos {
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_Get, serviceImpl.Get)
+          .AddMethod(__Method_GetAll, serviceImpl.GetAll)
           .AddMethod(__Method_Post, serviceImpl.Post)
           .AddMethod(__Method_Put, serviceImpl.Put)
           .AddMethod(__Method_Delete, serviceImpl.Delete).Build();
@@ -129,6 +144,7 @@ namespace gRPCTest.Protos {
     public static void BindService(grpc::ServiceBinderBase serviceBinder, UserBase serviceImpl)
     {
       serviceBinder.AddMethod(__Method_Get, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::gRPCTest.Protos.GetUserRequest, global::gRPCTest.Protos.UserProDto>(serviceImpl.Get));
+      serviceBinder.AddMethod(__Method_GetAll, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::gRPCTest.Protos.GetAttUserRequest, global::gRPCTest.Protos.ListUserProDto>(serviceImpl.GetAll));
       serviceBinder.AddMethod(__Method_Post, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::gRPCTest.Protos.CreateUserRequest, global::gRPCTest.Protos.UserCreateResultProtoDto>(serviceImpl.Post));
       serviceBinder.AddMethod(__Method_Put, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::gRPCTest.Protos.UpdateUserRequest, global::gRPCTest.Protos.UserUpdateResultProtoDto>(serviceImpl.Put));
       serviceBinder.AddMethod(__Method_Delete, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::gRPCTest.Protos.DeleteUserRequest, global::gRPCTest.Protos.DeleteUserResponse>(serviceImpl.Delete));
