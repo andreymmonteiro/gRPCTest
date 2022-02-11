@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using Domain.Dtos;
-using Domain.Models;
+using Domain.Dtos.User;
+using Domain.Models.User;
 
 namespace Domain.Mapper
 {

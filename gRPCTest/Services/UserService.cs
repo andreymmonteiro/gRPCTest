@@ -1,12 +1,10 @@
 ﻿using AutoMapper;
 using Domain.Dtos.User;
-using Domain.Interfaces;
 using Domain.Services.User;
 using Grpc.Core;
 using gRPCTest.Mapper.Interface;
 using gRPCTest.Protos;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 

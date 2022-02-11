@@ -13,6 +13,7 @@ namespace gRPCTest.Mapper
             var config = new MapperConfiguration(options => 
             {
                 options.AddProfile(new DtoToProto());
+                options.AddProfile(new EntityToProto());
             });
             return config.CreateMapper();
         }

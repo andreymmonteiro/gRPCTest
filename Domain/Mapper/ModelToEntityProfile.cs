@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using Domain.Entities;
-using Domain.Models;
+using Domain.Entities.User;
+using Domain.Models.User;
 
 namespace Domain.Mapper
 {

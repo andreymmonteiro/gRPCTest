@@ -17,7 +17,7 @@ namespace Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 64)
                 .HasAnnotation("ProductVersion", "5.0.12");
 
-            modelBuilder.Entity("Domain.Entities.UserEntity", b =>
+            modelBuilder.Entity("Domain.Entities.User.UserEntity", b =>
                 {
                     b.Property<Guid>("id")
                         .ValueGeneratedOnAdd()
@@ -35,6 +35,9 @@ namespace Data.Migrations
 
                     b.Property<string>("document")
                         .HasColumnType("varchar(95)");
+
+                    b.Property<string>("email")
+                        .HasColumnType("longtext");
 
                     b.Property<string>("name")
                         .IsRequired()
@@ -57,11 +60,12 @@ namespace Data.Migrations
                     b.HasData(
                         new
                         {
-                            id = new Guid("9b747618-ea47-43b6-b43f-e94aa4b67c4e"),
+                            id = new Guid("3fdaac34-5509-410d-9850-1ce927d474b1"),
                             age = 29,
                             companyOrPerson = "F",
-                            createDate = new DateTime(2021, 12, 16, 20, 12, 41, 234, DateTimeKind.Local).AddTicks(4663),
+                            createDate = new DateTime(2022, 1, 31, 21, 58, 0, 495, DateTimeKind.Local).AddTicks(1489),
                             document = "9106989784",
+                            email = "andreymuti@hotmail.com",
                             name = "Andrey Monteiro",
                             password = "masterkey",
                             updateDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)

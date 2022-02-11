@@ -1,7 +1,7 @@
-﻿using Domain.Dtos;
-using Domain.Entities;
+﻿using Domain.Dtos.User;
+using Domain.Entities.User;
 using Domain.Mapper.ConfigureAutoMapper;
-using Domain.Models;
+using Domain.Models.User;
 using System;
 using System.Collections.Generic;
 using System.Linq;

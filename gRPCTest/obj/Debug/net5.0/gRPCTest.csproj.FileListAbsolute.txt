@@ -5,7 +5,6 @@ C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\gRPCTest.deps.json
 C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\gRPCTest.runtimeconfig.json
 C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\gRPCTest.runtimeconfig.dev.json
 C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\gRPCTest.dll
-C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\ref\gRPCTest.dll
 C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\gRPCTest.pdb
 C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\AutoMapper.dll
 C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
@@ -45,3 +44,5 @@ C:\Estudos\gRPCTest\gRPCTest\obj\Debug\net5.0\gRPCTest.dll
 C:\Estudos\gRPCTest\gRPCTest\obj\Debug\net5.0\ref\gRPCTest.dll
 C:\Estudos\gRPCTest\gRPCTest\obj\Debug\net5.0\gRPCTest.pdb
 C:\Estudos\gRPCTest\gRPCTest\obj\Debug\net5.0\gRPCTest.genruntimeconfig.cache
+C:\Estudos\gRPCTest\gRPCTest\obj\Debug\net5.0\gRPCTest.csproj.CopyComplete
+C:\Estudos\gRPCTest\gRPCTest\obj\Debug\net5.0\refint\gRPCTest.dll

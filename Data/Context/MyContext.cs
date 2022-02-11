@@ -1,13 +1,8 @@
-﻿using Data.Mapping;
-using Domain.Entities;
+﻿using Data.Mapping.User;
+using Domain.Entities.User;
 using Microsoft.EntityFrameworkCore;
-
 using System;
-using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Data.Context
 {
@@ -26,6 +21,7 @@ namespace Data.Context
                 {
                     id = Guid.NewGuid(),
                     name = "Andrey Monteiro",
+                    email = "andreymuti@hotmail.com",
                     age = 29,
                     document = "9106989784",
                     createDate = DateTime.Now,

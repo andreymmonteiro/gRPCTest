@@ -15,6 +15,8 @@ namespace gRPCTest.Mapper
             CreateMap<UserUpdateDto, UpdateUserRequest>().ReverseMap();
             CreateMap<UserUpdateResultDto, UserUpdateResultProtoDto>().ReverseMap();
             CreateMap<List<UserDto>, ListUserProDto>().ReverseMap();
+
+            
         }
     }
 }

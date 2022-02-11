@@ -15,6 +15,8 @@ namespace Data.Migrations
                 columns: table => new
                 {
                     id = table.Column<Guid>(type: "char(36)", nullable: false, collation: "ascii_general_ci"),
+                    email = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
                     name = table.Column<string>(type: "varchar(200)", maxLength: 200, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     document = table.Column<string>(type: "varchar(95)", nullable: true)
@@ -35,8 +37,8 @@ namespace Data.Migrations
 
             migrationBuilder.InsertData(
                 table: "User",
-                columns: new[] { "id", "age", "companyOrPerson", "createDate", "document", "name", "password", "updateDate" },
-                values: new object[] { new Guid("9b747618-ea47-43b6-b43f-e94aa4b67c4e"), 29, "F", new DateTime(2021, 12, 16, 20, 12, 41, 234, DateTimeKind.Local).AddTicks(4663), "9106989784", "Andrey Monteiro", "masterkey", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) });
+                columns: new[] { "id", "age", "companyOrPerson", "createDate", "document", "email", "name", "password", "updateDate" },
+                values: new object[] { new Guid("3fdaac34-5509-410d-9850-1ce927d474b1"), 29, "F", new DateTime(2022, 1, 31, 21, 58, 0, 495, DateTimeKind.Local).AddTicks(1489), "9106989784", "andreymuti@hotmail.com", "Andrey Monteiro", "masterkey", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) });
 
             migrationBuilder.CreateIndex(
                 name: "IX_User_document",

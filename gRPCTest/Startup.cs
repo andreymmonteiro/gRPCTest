@@ -50,6 +50,7 @@ namespace gRPCTest
             {
                 //endpoints.MapGrpcService<GreeterService>();
                 endpoints.MapGrpcService<UserService>();
+                endpoints.MapGrpcService<LoginService>();
 
                 endpoints.MapGet("/", async context =>
                 {

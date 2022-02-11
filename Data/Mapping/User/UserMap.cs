@@ -1,4 +1,4 @@
-﻿using Domain.Entities;
+﻿using Domain.Entities.User;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Data.Mapping
+namespace Data.Mapping.User
 {
     public class UserMap : IEntityTypeConfiguration<UserEntity>
     {

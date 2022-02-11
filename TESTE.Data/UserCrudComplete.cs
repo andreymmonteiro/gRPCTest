@@ -1,6 +1,6 @@
 ﻿using Data.Context;
 using Data.Implementations;
-using Domain.Entities;
+using Domain.Entities.User;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;

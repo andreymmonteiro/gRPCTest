@@ -2,7 +2,6 @@ C:\Estudos\gRPCTest\Data\bin\Debug\net5.0\Data.deps.json
 C:\Estudos\gRPCTest\Data\bin\Debug\net5.0\Data.runtimeconfig.json
 C:\Estudos\gRPCTest\Data\bin\Debug\net5.0\Data.runtimeconfig.dev.json
 C:\Estudos\gRPCTest\Data\bin\Debug\net5.0\Data.dll
-C:\Estudos\gRPCTest\Data\bin\Debug\net5.0\ref\Data.dll
 C:\Estudos\gRPCTest\Data\bin\Debug\net5.0\Data.pdb
 C:\Estudos\gRPCTest\Data\bin\Debug\net5.0\Domain.dll
 C:\Estudos\gRPCTest\Data\bin\Debug\net5.0\Domain.pdb
@@ -15,3 +14,5 @@ C:\Estudos\gRPCTest\Data\obj\Debug\net5.0\Data.dll
 C:\Estudos\gRPCTest\Data\obj\Debug\net5.0\ref\Data.dll
 C:\Estudos\gRPCTest\Data\obj\Debug\net5.0\Data.pdb
 C:\Estudos\gRPCTest\Data\obj\Debug\net5.0\Data.genruntimeconfig.cache
+C:\Estudos\gRPCTest\Data\obj\Debug\net5.0\Data.csproj.CopyComplete
+C:\Estudos\gRPCTest\Data\obj\Debug\net5.0\refint\Data.dll

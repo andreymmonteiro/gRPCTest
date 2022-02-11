@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using Domain.Dtos;
-using Domain.Entities;
+using Domain.Dtos.User;
+using Domain.Entities.User;
 using Domain.Interfaces;
 using Domain.Mapper.Interface;
 using Domain.Services.User;
