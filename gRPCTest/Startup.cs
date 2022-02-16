@@ -4,6 +4,7 @@ using Domain.Mapper.Interface;
 using gRPCTest.Mapper;
 using gRPCTest.Mapper.Interface;
 using gRPCTest.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -11,12 +12,15 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace gRPCTest
 {
     public class Startup
     {
         IConfiguration Configuration { get; }
+        private const string TOKEN = "TokenKey";
         public Startup(IConfiguration Configuration)
         {
             this.Configuration = Configuration;
@@ -34,6 +38,26 @@ namespace gRPCTest
             Cross_Cuttting.DependencyInjection.ConfigureRepository.ConfigureIndependencyInjection(services);
             
             services.AddGrpc();
+
+            services.AddAuthentication(options => 
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+                .AddJwtBearer(options => 
+                {
+                    options.RequireHttpsMetadata = false;
+                    options.SaveToken = true;
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuerSigningKey = true,
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(Configuration.GetSection(TOKEN).Value)),
+                        ValidateIssuer = false,
+                        ValidateAudience = false
+                    };
+                });
+            services.AddAuthorization();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,11 +69,15 @@ namespace gRPCTest
             }
 
             app.UseRouting();
+            
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
-                //endpoints.MapGrpcService<GreeterService>();
+
                 endpoints.MapGrpcService<UserService>();
+                
                 endpoints.MapGrpcService<LoginService>();
 
                 endpoints.MapGet("/", async context =>

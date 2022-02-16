@@ -46,3 +46,10 @@ C:\Estudos\gRPCTest\gRPCTest\obj\Debug\net5.0\gRPCTest.pdb
 C:\Estudos\gRPCTest\gRPCTest\obj\Debug\net5.0\gRPCTest.genruntimeconfig.cache
 C:\Estudos\gRPCTest\gRPCTest\obj\Debug\net5.0\gRPCTest.csproj.CopyComplete
 C:\Estudos\gRPCTest\gRPCTest\obj\Debug\net5.0\refint\gRPCTest.dll
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Estudos\gRPCTest\gRPCTest\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

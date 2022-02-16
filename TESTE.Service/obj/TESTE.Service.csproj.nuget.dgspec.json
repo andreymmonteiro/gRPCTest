@@ -253,6 +253,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Estudos\\gRPCTest\\Data\\Data.csproj": {
+                "projectPath": "C:\\Estudos\\gRPCTest\\Data\\Data.csproj"
+              },
               "C:\\Estudos\\gRPCTest\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Estudos\\gRPCTest\\Domain\\Domain.csproj"
               }

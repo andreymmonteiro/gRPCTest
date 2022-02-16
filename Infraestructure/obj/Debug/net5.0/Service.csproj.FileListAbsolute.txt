@@ -13,3 +13,5 @@ C:\Estudos\gRPCTest\Infraestructure\obj\Debug\net5.0\Service.dll
 C:\Estudos\gRPCTest\Infraestructure\obj\Debug\net5.0\ref\Service.dll
 C:\Estudos\gRPCTest\Infraestructure\obj\Debug\net5.0\Service.pdb
 C:\Estudos\gRPCTest\Infraestructure\obj\Debug\net5.0\refint\Service.dll
+C:\Estudos\gRPCTest\Infraestructure\bin\Debug\net5.0\Data.dll
+C:\Estudos\gRPCTest\Infraestructure\bin\Debug\net5.0\Data.pdb

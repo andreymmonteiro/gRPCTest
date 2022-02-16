@@ -9,7 +9,6 @@ C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\TESTE.Service.deps.json
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\TESTE.Service.runtimeconfig.json
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\TESTE.Service.runtimeconfig.dev.json
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\TESTE.Service.dll
-C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\ref\TESTE.Service.dll
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\TESTE.Service.pdb
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\AutoMapper.dll
 C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
@@ -128,3 +127,4 @@ C:\Estudos\gRPCTest\TESTE.Service\obj\Debug\net5.0\TESTE.Service.dll
 C:\Estudos\gRPCTest\TESTE.Service\obj\Debug\net5.0\ref\TESTE.Service.dll
 C:\Estudos\gRPCTest\TESTE.Service\obj\Debug\net5.0\TESTE.Service.pdb
 C:\Estudos\gRPCTest\TESTE.Service\obj\Debug\net5.0\TESTE.Service.genruntimeconfig.cache
+C:\Estudos\gRPCTest\TESTE.Service\obj\Debug\net5.0\refint\TESTE.Service.dll
