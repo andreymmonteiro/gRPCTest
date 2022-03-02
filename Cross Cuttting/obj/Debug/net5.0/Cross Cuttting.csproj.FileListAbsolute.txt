@@ -14,6 +14,6 @@ C:\Estudos\gRPCTest\Cross Cuttting\obj\Debug\net5.0\Cross Cuttting.AssemblyInfo.
 C:\Estudos\gRPCTest\Cross Cuttting\obj\Debug\net5.0\Cross Cuttting.csproj.CoreCompileInputs.cache
 C:\Estudos\gRPCTest\Cross Cuttting\obj\Debug\net5.0\Cross Cuttting.csproj.CopyComplete
 C:\Estudos\gRPCTest\Cross Cuttting\obj\Debug\net5.0\Cross Cuttting.dll
-C:\Estudos\gRPCTest\Cross Cuttting\obj\Debug\net5.0\ref\Cross Cuttting.dll
-C:\Estudos\gRPCTest\Cross Cuttting\obj\Debug\net5.0\Cross Cuttting.pdb
 C:\Estudos\gRPCTest\Cross Cuttting\obj\Debug\net5.0\refint\Cross Cuttting.dll
+C:\Estudos\gRPCTest\Cross Cuttting\obj\Debug\net5.0\Cross Cuttting.pdb
+C:\Estudos\gRPCTest\Cross Cuttting\obj\Debug\net5.0\ref\Cross Cuttting.dll

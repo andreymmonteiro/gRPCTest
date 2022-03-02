@@ -6,12 +6,10 @@ using Domain.Mapper.Interface;
 using Domain.Services.User;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Service
-{
+{    
     public class UserService : IUserService
     {
         private readonly IRepository<UserEntity> _repository;

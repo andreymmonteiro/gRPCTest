@@ -122,3 +122,5 @@ C:\Estudos\gRPCTest\TESTE.Data\obj\Debug\net5.0\ref\TESTE.Data.dll
 C:\Estudos\gRPCTest\TESTE.Data\obj\Debug\net5.0\TESTE.Data.pdb
 C:\Estudos\gRPCTest\TESTE.Data\obj\Debug\net5.0\TESTE.Data.genruntimeconfig.cache
 C:\Estudos\gRPCTest\TESTE.Data\obj\Debug\net5.0\refint\TESTE.Data.dll
+C:\Estudos\gRPCTest\TESTE.Data\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Estudos\gRPCTest\TESTE.Data\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll

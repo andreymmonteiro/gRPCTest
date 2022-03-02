@@ -5,6 +5,7 @@ using gRPCTest.Mapper;
 using gRPCTest.Mapper.Interface;
 using gRPCTest.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -13,6 +14,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
+using Service.SigningAuthConfigutarion;
 using System.Text;
 
 namespace gRPCTest
@@ -35,8 +37,12 @@ namespace gRPCTest
                                                     ServerVersion.Parse("5.7-mysql")), ServiceLifetime.Transient);
 
             CreateAutoMapper(services);
+            Cross_Cuttting.DependencyInjection.ConfigureServices.ConfigureIndependencyInjection(services);
             Cross_Cuttting.DependencyInjection.ConfigureRepository.ConfigureIndependencyInjection(services);
             
+            ISigningConfigurations signingConfigurations = new SigningConfigurations();
+            services.AddSingleton(signingConfigurations);
+
             services.AddGrpc();
 
             services.AddAuthentication(options => 
@@ -51,7 +57,7 @@ namespace gRPCTest
                     options.TokenValidationParameters = new TokenValidationParameters
                     {
                         ValidateIssuerSigningKey = true,
-                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(Configuration.GetSection(TOKEN).Value)),
+                        IssuerSigningKey = signingConfigurations.Key,
                         ValidateIssuer = false,
                         ValidateAudience = false
                     };

@@ -4,12 +4,14 @@ using Domain.Services.User;
 using Grpc.Core;
 using gRPCTest.Mapper.Interface;
 using gRPCTest.Protos;
+using Microsoft.AspNetCore.Authorization;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace gRPCTest.Services
 {
+    [Authorize]
     public class UserService : User.UserBase 
     {
         private readonly IUserService service;
@@ -19,8 +21,6 @@ namespace gRPCTest.Services
             this.service = service;
             this.mapper = mapper.GetMapper();
         }
-
-        
 
         public override async Task<UserProDto> Get(GetUserRequest request, ServerCallContext context)
         {
@@ -36,12 +36,14 @@ namespace gRPCTest.Services
             var result = await service.Post(userCreateDto);
             return mapper.Map<UserCreateResultProtoDto>(result);
         }
+
         public override async Task<DeleteUserResponse> Delete(DeleteUserRequest request, ServerCallContext context)
         {
             Guid id = new Guid(request.Id);
             var result = await service.Delete(id);
             return new DeleteUserResponse() { Success = result };
         }
+
         public override async Task<UserUpdateResultProtoDto> Put(UpdateUserRequest request, ServerCallContext context)
         {
             var userUpdateDto = mapper.Map<UserUpdateDto>(request);
@@ -49,6 +51,7 @@ namespace gRPCTest.Services
 
             return mapper.Map<UserUpdateResultProtoDto>(result);
         }
+
         public override async Task<ListUserProDto> GetAll(GetAttUserRequest request, ServerCallContext context)
         {
             var result = await service.Get();

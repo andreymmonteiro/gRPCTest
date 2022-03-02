@@ -24,23 +24,25 @@ namespace gRPCTest.Protos {
     static UserReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "ChFQcm90b3MvVXNlci5wcm90byITChFHZXRBdHRVc2VyUmVxdWVzdCIyCg5M",
-            "aXN0VXNlclByb0R0bxIgCgtVc2Vyc1Byb0R0bxgBIAMoCzILLlVzZXJQcm9E",
-            "dG8iHAoOR2V0VXNlclJlcXVlc3QSCgoCaWQYASABKAkihgEKClVzZXJQcm9E",
-            "dG8SCgoCaWQYASABKAkSEgoKY3JlYXRlRGF0ZRgCIAEoCRISCgp1cGRhdGVE",
-            "YXRlGAMgASgJEgwKBG5hbWUYBCABKAkSEAoIZG9jdW1lbnQYBSABKAkSCwoD",
-            "YWdlGAYgASgFEhcKD2NvbXBhbnlPclBlcnNvbhgHIAEoCSJZChFDcmVhdGVV",
+            "ChFQcm90b3MvVXNlci5wcm90byIiChFHZXRBdHRVc2VyUmVxdWVzdBINCgV0",
+            "b2tlbhgBIAEoCSIyCg5MaXN0VXNlclByb0R0bxIgCgtVc2Vyc1Byb0R0bxgB",
+            "IAMoCzILLlVzZXJQcm9EdG8iKwoOR2V0VXNlclJlcXVlc3QSCgoCaWQYASAB",
+            "KAkSDQoFdG9rZW4YAiABKAkilQEKClVzZXJQcm9EdG8SCgoCaWQYASABKAkS",
+            "EgoKY3JlYXRlRGF0ZRgCIAEoCRISCgp1cGRhdGVEYXRlGAMgASgJEgwKBG5h",
+            "bWUYBCABKAkSEAoIZG9jdW1lbnQYBSABKAkSCwoDYWdlGAYgASgFEhcKD2Nv",
+            "bXBhbnlPclBlcnNvbhgHIAEoCRINCgV0b2tlbhgIIAEoCSJoChFDcmVhdGVV",
             "c2VyUmVxdWVzdBIMCgRuYW1lGAEgASgJEhAKCGRvY3VtZW50GAIgASgJEgsK",
-            "A2FnZRgDIAEoBRIXCg9jb21wYW55T3JQZXJzb24YBCABKAkigAEKGFVzZXJD",
-            "cmVhdGVSZXN1bHRQcm90b0R0bxIKCgJpZBgBIAEoCRISCgpjcmVhdGVEYXRl",
-            "GAIgASgJEgwKBG5hbWUYAyABKAkSEAoIZG9jdW1lbnQYBCABKAkSCwoDYWdl",
-            "GAUgASgFEhcKD2NvbXBhbnlPclBlcnNvbhgGIAEoCSJlChFVcGRhdGVVc2Vy",
-            "UmVxdWVzdBIKCgJpZBgBIAEoCRIMCgRuYW1lGAMgASgJEhAKCGRvY3VtZW50",
-            "GAQgASgJEgsKA2FnZRgFIAEoBRIXCg9jb21wYW55T3JQZXJzb24YBiABKAki",
-            "gAEKGFVzZXJVcGRhdGVSZXN1bHRQcm90b0R0bxIKCgJpZBgBIAEoCRISCgp1",
-            "cGRhdGVEYXRlGAIgASgJEgwKBG5hbWUYAyABKAkSEAoIZG9jdW1lbnQYBCAB",
-            "KAkSCwoDYWdlGAUgASgFEhcKD2NvbXBhbnlPclBlcnNvbhgGIAEoCSIfChFE",
-            "ZWxldGVVc2VyUmVxdWVzdBIKCgJpZBgBIAEoCSIlChJEZWxldGVVc2VyUmVz",
+            "A2FnZRgDIAEoBRIXCg9jb21wYW55T3JQZXJzb24YBCABKAkSDQoFdG9rZW4Y",
+            "BSABKAkigAEKGFVzZXJDcmVhdGVSZXN1bHRQcm90b0R0bxIKCgJpZBgBIAEo",
+            "CRISCgpjcmVhdGVEYXRlGAIgASgJEgwKBG5hbWUYAyABKAkSEAoIZG9jdW1l",
+            "bnQYBCABKAkSCwoDYWdlGAUgASgFEhcKD2NvbXBhbnlPclBlcnNvbhgGIAEo",
+            "CSJ0ChFVcGRhdGVVc2VyUmVxdWVzdBIKCgJpZBgBIAEoCRIMCgRuYW1lGAMg",
+            "ASgJEhAKCGRvY3VtZW50GAQgASgJEgsKA2FnZRgFIAEoBRIXCg9jb21wYW55",
+            "T3JQZXJzb24YBiABKAkSDQoFdG9rZW4YByABKAkigAEKGFVzZXJVcGRhdGVS",
+            "ZXN1bHRQcm90b0R0bxIKCgJpZBgBIAEoCRISCgp1cGRhdGVEYXRlGAIgASgJ",
+            "EgwKBG5hbWUYAyABKAkSEAoIZG9jdW1lbnQYBCABKAkSCwoDYWdlGAUgASgF",
+            "EhcKD2NvbXBhbnlPclBlcnNvbhgGIAEoCSIuChFEZWxldGVVc2VyUmVxdWVz",
+            "dBIKCgJpZBgBIAEoCRINCgV0b2tlbhgCIAEoCSIlChJEZWxldGVVc2VyUmVz",
             "cG9uc2USDwoHc3VjY2VzcxgBIAEoCDL6AQoEVXNlchIjCgNHZXQSDy5HZXRV",
             "c2VyUmVxdWVzdBoLLlVzZXJQcm9EdG8SLQoGR2V0QWxsEhIuR2V0QXR0VXNl",
             "clJlcXVlc3QaDy5MaXN0VXNlclByb0R0bxI1CgRQb3N0EhIuQ3JlYXRlVXNl",
@@ -51,15 +53,15 @@ namespace gRPCTest.Protos {
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::gRPCTest.Protos.GetAttUserRequest), global::gRPCTest.Protos.GetAttUserRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::gRPCTest.Protos.GetAttUserRequest), global::gRPCTest.Protos.GetAttUserRequest.Parser, new[]{ "Token" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::gRPCTest.Protos.ListUserProDto), global::gRPCTest.Protos.ListUserProDto.Parser, new[]{ "UsersProDto" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::gRPCTest.Protos.GetUserRequest), global::gRPCTest.Protos.GetUserRequest.Parser, new[]{ "Id" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::gRPCTest.Protos.UserProDto), global::gRPCTest.Protos.UserProDto.Parser, new[]{ "Id", "CreateDate", "UpdateDate", "Name", "Document", "Age", "CompanyOrPerson" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::gRPCTest.Protos.CreateUserRequest), global::gRPCTest.Protos.CreateUserRequest.Parser, new[]{ "Name", "Document", "Age", "CompanyOrPerson" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::gRPCTest.Protos.GetUserRequest), global::gRPCTest.Protos.GetUserRequest.Parser, new[]{ "Id", "Token" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::gRPCTest.Protos.UserProDto), global::gRPCTest.Protos.UserProDto.Parser, new[]{ "Id", "CreateDate", "UpdateDate", "Name", "Document", "Age", "CompanyOrPerson", "Token" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::gRPCTest.Protos.CreateUserRequest), global::gRPCTest.Protos.CreateUserRequest.Parser, new[]{ "Name", "Document", "Age", "CompanyOrPerson", "Token" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::gRPCTest.Protos.UserCreateResultProtoDto), global::gRPCTest.Protos.UserCreateResultProtoDto.Parser, new[]{ "Id", "CreateDate", "Name", "Document", "Age", "CompanyOrPerson" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::gRPCTest.Protos.UpdateUserRequest), global::gRPCTest.Protos.UpdateUserRequest.Parser, new[]{ "Id", "Name", "Document", "Age", "CompanyOrPerson" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::gRPCTest.Protos.UpdateUserRequest), global::gRPCTest.Protos.UpdateUserRequest.Parser, new[]{ "Id", "Name", "Document", "Age", "CompanyOrPerson", "Token" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::gRPCTest.Protos.UserUpdateResultProtoDto), global::gRPCTest.Protos.UserUpdateResultProtoDto.Parser, new[]{ "Id", "UpdateDate", "Name", "Document", "Age", "CompanyOrPerson" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::gRPCTest.Protos.DeleteUserRequest), global::gRPCTest.Protos.DeleteUserRequest.Parser, new[]{ "Id" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::gRPCTest.Protos.DeleteUserRequest), global::gRPCTest.Protos.DeleteUserRequest.Parser, new[]{ "Id", "Token" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::gRPCTest.Protos.DeleteUserResponse), global::gRPCTest.Protos.DeleteUserResponse.Parser, new[]{ "Success" }, null, null, null, null)
           }));
     }
@@ -96,12 +98,24 @@ namespace gRPCTest.Protos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetAttUserRequest(GetAttUserRequest other) : this() {
+      token_ = other.token_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetAttUserRequest Clone() {
       return new GetAttUserRequest(this);
+    }
+
+    /// <summary>Field number for the "token" field.</summary>
+    public const int TokenFieldNumber = 1;
+    private string token_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Token {
+      get { return token_; }
+      set {
+        token_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -117,12 +131,14 @@ namespace gRPCTest.Protos {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (Token != other.Token) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
+      if (Token.Length != 0) hash ^= Token.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -139,6 +155,10 @@ namespace gRPCTest.Protos {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
+      if (Token.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Token);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -148,6 +168,10 @@ namespace gRPCTest.Protos {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Token.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Token);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -157,6 +181,9 @@ namespace gRPCTest.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
+      if (Token.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Token);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -167,6 +194,9 @@ namespace gRPCTest.Protos {
     public void MergeFrom(GetAttUserRequest other) {
       if (other == null) {
         return;
+      }
+      if (other.Token.Length != 0) {
+        Token = other.Token;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -182,6 +212,10 @@ namespace gRPCTest.Protos {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
+          case 10: {
+            Token = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -196,6 +230,10 @@ namespace gRPCTest.Protos {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
+          case 10: {
+            Token = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -394,6 +432,7 @@ namespace gRPCTest.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetUserRequest(GetUserRequest other) : this() {
       id_ = other.id_;
+      token_ = other.token_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -413,6 +452,17 @@ namespace gRPCTest.Protos {
       }
     }
 
+    /// <summary>Field number for the "token" field.</summary>
+    public const int TokenFieldNumber = 2;
+    private string token_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Token {
+      get { return token_; }
+      set {
+        token_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as GetUserRequest);
@@ -427,6 +477,7 @@ namespace gRPCTest.Protos {
         return true;
       }
       if (Id != other.Id) return false;
+      if (Token != other.Token) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -434,6 +485,7 @@ namespace gRPCTest.Protos {
     public override int GetHashCode() {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
+      if (Token.Length != 0) hash ^= Token.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -454,6 +506,10 @@ namespace gRPCTest.Protos {
         output.WriteRawTag(10);
         output.WriteString(Id);
       }
+      if (Token.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Token);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -467,6 +523,10 @@ namespace gRPCTest.Protos {
         output.WriteRawTag(10);
         output.WriteString(Id);
       }
+      if (Token.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Token);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -478,6 +538,9 @@ namespace gRPCTest.Protos {
       int size = 0;
       if (Id.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
+      }
+      if (Token.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Token);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -492,6 +555,9 @@ namespace gRPCTest.Protos {
       }
       if (other.Id.Length != 0) {
         Id = other.Id;
+      }
+      if (other.Token.Length != 0) {
+        Token = other.Token;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -511,6 +577,10 @@ namespace gRPCTest.Protos {
             Id = input.ReadString();
             break;
           }
+          case 18: {
+            Token = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -527,6 +597,10 @@ namespace gRPCTest.Protos {
             break;
           case 10: {
             Id = input.ReadString();
+            break;
+          }
+          case 18: {
+            Token = input.ReadString();
             break;
           }
         }
@@ -572,6 +646,7 @@ namespace gRPCTest.Protos {
       document_ = other.document_;
       age_ = other.age_;
       companyOrPerson_ = other.companyOrPerson_;
+      token_ = other.token_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -657,6 +732,17 @@ namespace gRPCTest.Protos {
       }
     }
 
+    /// <summary>Field number for the "token" field.</summary>
+    public const int TokenFieldNumber = 8;
+    private string token_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Token {
+      get { return token_; }
+      set {
+        token_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as UserProDto);
@@ -677,6 +763,7 @@ namespace gRPCTest.Protos {
       if (Document != other.Document) return false;
       if (Age != other.Age) return false;
       if (CompanyOrPerson != other.CompanyOrPerson) return false;
+      if (Token != other.Token) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -690,6 +777,7 @@ namespace gRPCTest.Protos {
       if (Document.Length != 0) hash ^= Document.GetHashCode();
       if (Age != 0) hash ^= Age.GetHashCode();
       if (CompanyOrPerson.Length != 0) hash ^= CompanyOrPerson.GetHashCode();
+      if (Token.Length != 0) hash ^= Token.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -734,6 +822,10 @@ namespace gRPCTest.Protos {
         output.WriteRawTag(58);
         output.WriteString(CompanyOrPerson);
       }
+      if (Token.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(Token);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -771,6 +863,10 @@ namespace gRPCTest.Protos {
         output.WriteRawTag(58);
         output.WriteString(CompanyOrPerson);
       }
+      if (Token.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(Token);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -800,6 +896,9 @@ namespace gRPCTest.Protos {
       }
       if (CompanyOrPerson.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyOrPerson);
+      }
+      if (Token.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Token);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -832,6 +931,9 @@ namespace gRPCTest.Protos {
       }
       if (other.CompanyOrPerson.Length != 0) {
         CompanyOrPerson = other.CompanyOrPerson;
+      }
+      if (other.Token.Length != 0) {
+        Token = other.Token;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -873,6 +975,10 @@ namespace gRPCTest.Protos {
           }
           case 58: {
             CompanyOrPerson = input.ReadString();
+            break;
+          }
+          case 66: {
+            Token = input.ReadString();
             break;
           }
         }
@@ -917,6 +1023,10 @@ namespace gRPCTest.Protos {
             CompanyOrPerson = input.ReadString();
             break;
           }
+          case 66: {
+            Token = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -957,6 +1067,7 @@ namespace gRPCTest.Protos {
       document_ = other.document_;
       age_ = other.age_;
       companyOrPerson_ = other.companyOrPerson_;
+      token_ = other.token_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1009,6 +1120,17 @@ namespace gRPCTest.Protos {
       }
     }
 
+    /// <summary>Field number for the "token" field.</summary>
+    public const int TokenFieldNumber = 5;
+    private string token_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Token {
+      get { return token_; }
+      set {
+        token_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as CreateUserRequest);
@@ -1026,6 +1148,7 @@ namespace gRPCTest.Protos {
       if (Document != other.Document) return false;
       if (Age != other.Age) return false;
       if (CompanyOrPerson != other.CompanyOrPerson) return false;
+      if (Token != other.Token) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1036,6 +1159,7 @@ namespace gRPCTest.Protos {
       if (Document.Length != 0) hash ^= Document.GetHashCode();
       if (Age != 0) hash ^= Age.GetHashCode();
       if (CompanyOrPerson.Length != 0) hash ^= CompanyOrPerson.GetHashCode();
+      if (Token.Length != 0) hash ^= Token.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1068,6 +1192,10 @@ namespace gRPCTest.Protos {
         output.WriteRawTag(34);
         output.WriteString(CompanyOrPerson);
       }
+      if (Token.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(Token);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1093,6 +1221,10 @@ namespace gRPCTest.Protos {
         output.WriteRawTag(34);
         output.WriteString(CompanyOrPerson);
       }
+      if (Token.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(Token);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1113,6 +1245,9 @@ namespace gRPCTest.Protos {
       }
       if (CompanyOrPerson.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyOrPerson);
+      }
+      if (Token.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Token);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1136,6 +1271,9 @@ namespace gRPCTest.Protos {
       }
       if (other.CompanyOrPerson.Length != 0) {
         CompanyOrPerson = other.CompanyOrPerson;
+      }
+      if (other.Token.Length != 0) {
+        Token = other.Token;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1167,6 +1305,10 @@ namespace gRPCTest.Protos {
             CompanyOrPerson = input.ReadString();
             break;
           }
+          case 42: {
+            Token = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -1195,6 +1337,10 @@ namespace gRPCTest.Protos {
           }
           case 34: {
             CompanyOrPerson = input.ReadString();
+            break;
+          }
+          case 42: {
+            Token = input.ReadString();
             break;
           }
         }
@@ -1590,6 +1736,7 @@ namespace gRPCTest.Protos {
       document_ = other.document_;
       age_ = other.age_;
       companyOrPerson_ = other.companyOrPerson_;
+      token_ = other.token_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1653,6 +1800,17 @@ namespace gRPCTest.Protos {
       }
     }
 
+    /// <summary>Field number for the "token" field.</summary>
+    public const int TokenFieldNumber = 7;
+    private string token_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Token {
+      get { return token_; }
+      set {
+        token_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as UpdateUserRequest);
@@ -1671,6 +1829,7 @@ namespace gRPCTest.Protos {
       if (Document != other.Document) return false;
       if (Age != other.Age) return false;
       if (CompanyOrPerson != other.CompanyOrPerson) return false;
+      if (Token != other.Token) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1682,6 +1841,7 @@ namespace gRPCTest.Protos {
       if (Document.Length != 0) hash ^= Document.GetHashCode();
       if (Age != 0) hash ^= Age.GetHashCode();
       if (CompanyOrPerson.Length != 0) hash ^= CompanyOrPerson.GetHashCode();
+      if (Token.Length != 0) hash ^= Token.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1718,6 +1878,10 @@ namespace gRPCTest.Protos {
         output.WriteRawTag(50);
         output.WriteString(CompanyOrPerson);
       }
+      if (Token.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(Token);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1747,6 +1911,10 @@ namespace gRPCTest.Protos {
         output.WriteRawTag(50);
         output.WriteString(CompanyOrPerson);
       }
+      if (Token.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(Token);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1770,6 +1938,9 @@ namespace gRPCTest.Protos {
       }
       if (CompanyOrPerson.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(CompanyOrPerson);
+      }
+      if (Token.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Token);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1796,6 +1967,9 @@ namespace gRPCTest.Protos {
       }
       if (other.CompanyOrPerson.Length != 0) {
         CompanyOrPerson = other.CompanyOrPerson;
+      }
+      if (other.Token.Length != 0) {
+        Token = other.Token;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1831,6 +2005,10 @@ namespace gRPCTest.Protos {
             CompanyOrPerson = input.ReadString();
             break;
           }
+          case 58: {
+            Token = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -1863,6 +2041,10 @@ namespace gRPCTest.Protos {
           }
           case 50: {
             CompanyOrPerson = input.ReadString();
+            break;
+          }
+          case 58: {
+            Token = input.ReadString();
             break;
           }
         }
@@ -2254,6 +2436,7 @@ namespace gRPCTest.Protos {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public DeleteUserRequest(DeleteUserRequest other) : this() {
       id_ = other.id_;
+      token_ = other.token_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2273,6 +2456,17 @@ namespace gRPCTest.Protos {
       }
     }
 
+    /// <summary>Field number for the "token" field.</summary>
+    public const int TokenFieldNumber = 2;
+    private string token_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Token {
+      get { return token_; }
+      set {
+        token_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as DeleteUserRequest);
@@ -2287,6 +2481,7 @@ namespace gRPCTest.Protos {
         return true;
       }
       if (Id != other.Id) return false;
+      if (Token != other.Token) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2294,6 +2489,7 @@ namespace gRPCTest.Protos {
     public override int GetHashCode() {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
+      if (Token.Length != 0) hash ^= Token.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2314,6 +2510,10 @@ namespace gRPCTest.Protos {
         output.WriteRawTag(10);
         output.WriteString(Id);
       }
+      if (Token.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Token);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2327,6 +2527,10 @@ namespace gRPCTest.Protos {
         output.WriteRawTag(10);
         output.WriteString(Id);
       }
+      if (Token.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Token);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2338,6 +2542,9 @@ namespace gRPCTest.Protos {
       int size = 0;
       if (Id.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
+      }
+      if (Token.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Token);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -2352,6 +2559,9 @@ namespace gRPCTest.Protos {
       }
       if (other.Id.Length != 0) {
         Id = other.Id;
+      }
+      if (other.Token.Length != 0) {
+        Token = other.Token;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -2371,6 +2581,10 @@ namespace gRPCTest.Protos {
             Id = input.ReadString();
             break;
           }
+          case 18: {
+            Token = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -2387,6 +2601,10 @@ namespace gRPCTest.Protos {
             break;
           case 10: {
             Id = input.ReadString();
+            break;
+          }
+          case 18: {
+            Token = input.ReadString();
             break;
           }
         }

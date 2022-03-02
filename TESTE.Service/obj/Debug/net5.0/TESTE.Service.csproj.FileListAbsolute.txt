@@ -128,3 +128,7 @@ C:\Estudos\gRPCTest\TESTE.Service\obj\Debug\net5.0\ref\TESTE.Service.dll
 C:\Estudos\gRPCTest\TESTE.Service\obj\Debug\net5.0\TESTE.Service.pdb
 C:\Estudos\gRPCTest\TESTE.Service\obj\Debug\net5.0\TESTE.Service.genruntimeconfig.cache
 C:\Estudos\gRPCTest\TESTE.Service\obj\Debug\net5.0\refint\TESTE.Service.dll
+C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Estudos\gRPCTest\TESTE.Service\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
