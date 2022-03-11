@@ -2,6 +2,7 @@
 using Data.Repositories;
 using Data.Repositories.User;
 using Domain.Entities.User;
+using Domain.Interfaces;
 using Domain.Services.User;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -11,18 +12,18 @@ namespace Data.Implementations
 {
     public class UserImplementation : BaseRepository<UserEntity>, IUserRepository
     {
-        private DbSet<UserEntity> dataSet;
+        private DbSet<UserEntity> _dataSet; 
 
         public UserImplementation(MyContext context) : base(context)
         {
-            this.dataSet = context.Set<UserEntity>();
+            _dataSet = context.Set<UserEntity>();
         }
 
         public async Task<UserEntity> FindByLogin(UserEntity user)
         {
             try 
             {
-                var result = await dataSet.AsNoTracking().FirstOrDefaultAsync(item => item.email.Equals(user.email));
+                var result = await _dataSet.AsNoTracking().FirstOrDefaultAsync(item => item.email.Equals(user.email));
                 if (user != null && user.password.Equals(result.password))
                     return result;
             }
