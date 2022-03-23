@@ -15,16 +15,16 @@ namespace TESTE.Service.AutoMapper
     {
         private UserEntity userEntity = new UserEntity()
         {
-            name = Faker.Name.FullName(),
-            age = 29,
-            companyOrPerson = 'F',
-            document = Guid.NewGuid().ToString()
+            Name = Faker.Name.FullName(),
+            Age = 29,
+            CompanyOrPerson = 'F',
+            Document = Guid.NewGuid().ToString()
         };
         private UserModel userModel = new UserModel()
         {
-            name = Faker.Name.FullName(),
-            age = 29,
-            companyOrPerson = 'F',
+            Name = Faker.Name.FullName(),
+            Age = 29,
+            CompanyOrPerson = 'F',
         };
 
 
@@ -46,29 +46,29 @@ namespace TESTE.Service.AutoMapper
             Assert.NotNull(userUpdateDtoResult);
             Assert.NotNull(userModelTest);
 
-            Assert.Equal(userEntity.name, userDto.name);
-            Assert.Equal(userEntity.age, userDto.age);
-            Assert.Equal(userEntity.document, userDto.document);
+            Assert.Equal(userEntity.Name, userDto.Name);
+            Assert.Equal(userEntity.Age, userDto.Age);
+            Assert.Equal(userEntity.Document, userDto.Document);
 
-            Assert.Equal(userEntity.name, userCreateDto.name);
-            Assert.Equal(userEntity.age, userCreateDto.age);
-            Assert.Equal(userEntity.document, userCreateDto.document);
+            Assert.Equal(userEntity.Name, userCreateDto.Name);
+            Assert.Equal(userEntity.Age, userCreateDto.Age);
+            Assert.Equal(userEntity.Document, userCreateDto.Document);
 
-            Assert.Equal(userEntity.name, userCreateDtoResult.name);
-            Assert.Equal(userEntity.age, userCreateDtoResult.age);
-            Assert.Equal(userEntity.document, userCreateDtoResult.document);
+            Assert.Equal(userEntity.Name, userCreateDtoResult.Name);
+            Assert.Equal(userEntity.Age, userCreateDtoResult.Age);
+            Assert.Equal(userEntity.Document, userCreateDtoResult.Document);
 
-            Assert.Equal(userEntity.name, userUpdateDto.name);
-            Assert.Equal(userEntity.age, userUpdateDto.age);
-            Assert.Equal(userEntity.document, userUpdateDto.document);
+            Assert.Equal(userEntity.Name, userUpdateDto.Name);
+            Assert.Equal(userEntity.Age, userUpdateDto.Age);
+            Assert.Equal(userEntity.Document, userUpdateDto.Document);
 
-            Assert.Equal(userEntity.name, userUpdateDtoResult.name);
-            Assert.Equal(userEntity.age, userUpdateDtoResult.age);
-            Assert.Equal(userEntity.document, userUpdateDtoResult.document);
+            Assert.Equal(userEntity.Name, userUpdateDtoResult.Name);
+            Assert.Equal(userEntity.Age, userUpdateDtoResult.Age);
+            Assert.Equal(userEntity.Document, userUpdateDtoResult.Document);
 
-            Assert.Equal(userEntity.name, userModelTest.name);
-            Assert.Equal(userEntity.age, userModelTest.age);
-            Assert.Equal(userEntity.document, userModelTest.document);
+            Assert.Equal(userEntity.Name, userModelTest.Name);
+            Assert.Equal(userEntity.Age, userModelTest.Age);
+            Assert.Equal(userEntity.Document, userModelTest.Document);
         }
         [Fact(DisplayName ="Can map user model")]
         public async Task CAN_MAP_USER_MODEL() 
@@ -88,29 +88,29 @@ namespace TESTE.Service.AutoMapper
             Assert.NotNull(userUpdateDtoResult);
             Assert.NotNull(userEntityTest);
 
-            Assert.Equal(userModel.name, userDto.name);
-            Assert.Equal(userModel.age, userDto.age);
-            Assert.Equal(userModel.document, userDto.document);
+            Assert.Equal(userModel.Name, userDto.Name);
+            Assert.Equal(userModel.Age, userDto.Age);
+            Assert.Equal(userModel.Document, userDto.Document);
 
-            Assert.Equal(userModel.name, userCreateDto.name);
-            Assert.Equal(userModel.age, userCreateDto.age);
-            Assert.Equal(userModel.document, userCreateDto.document);
+            Assert.Equal(userModel.Name, userCreateDto.Name);
+            Assert.Equal(userModel.Age, userCreateDto.Age);
+            Assert.Equal(userModel.Document, userCreateDto.Document);
 
-            Assert.Equal(userModel.name, userCreateDtoResult.name);
-            Assert.Equal(userModel.age, userCreateDtoResult.age);
-            Assert.Equal(userModel.document, userCreateDtoResult.document);
+            Assert.Equal(userModel.Name, userCreateDtoResult.Name);
+            Assert.Equal(userModel.Age, userCreateDtoResult.Age);
+            Assert.Equal(userModel.Document, userCreateDtoResult.Document);
 
-            Assert.Equal(userModel.name, userUpdateDto.name);
-            Assert.Equal(userModel.age, userUpdateDto.age);
-            Assert.Equal(userModel.document, userUpdateDto.document);
+            Assert.Equal(userModel.Name, userUpdateDto.Name);
+            Assert.Equal(userModel.Age, userUpdateDto.Age);
+            Assert.Equal(userModel.Document, userUpdateDto.Document);
 
-            Assert.Equal(userModel.name, userUpdateDtoResult.name);
-            Assert.Equal(userModel.age, userUpdateDtoResult.age);
-            Assert.Equal(userModel.document, userUpdateDtoResult.document);
+            Assert.Equal(userModel.Name, userUpdateDtoResult.Name);
+            Assert.Equal(userModel.Age, userUpdateDtoResult.Age);
+            Assert.Equal(userModel.Document, userUpdateDtoResult.Document);
 
-            Assert.Equal(userModel.name, userEntityTest.name);
-            Assert.Equal(userModel.age, userEntityTest.age);
-            Assert.Equal(userModel.document, userEntityTest.document);
+            Assert.Equal(userModel.Name, userEntityTest.Name);
+            Assert.Equal(userModel.Age, userEntityTest.Age);
+            Assert.Equal(userModel.Document, userEntityTest.Document);
         }
 
     }

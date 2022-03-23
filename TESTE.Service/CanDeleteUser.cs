@@ -15,10 +15,10 @@ namespace TESTE.Service
         public async Task CAN_DELETE_USER() 
         {
             serviceMock = new Mock<IUserService>();
-            serviceMock.Setup(setup => setup.Delete(userEntity.id)).ReturnsAsync(true);
+            serviceMock.Setup(setup => setup.Delete(userEntity.Id)).ReturnsAsync(true);
             service = serviceMock.Object;
 
-            var result = await service.Delete(userEntity.id);
+            var result = await service.Delete(userEntity.Id);
             Assert.True(result);
         }
     }

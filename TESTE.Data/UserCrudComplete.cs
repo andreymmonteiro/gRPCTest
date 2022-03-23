@@ -17,10 +17,10 @@ namespace TESTE.Data
         private UserImplementation userImplementation;
         private UserEntity userEntity = new UserEntity()
         {
-            name = Faker.Name.FullName(),
-            age = 29,
-            companyOrPerson= 'F',
-            document= Guid.NewGuid().ToString()
+            Name = Faker.Name.FullName(),
+            Age = 29,
+            CompanyOrPerson= 'F',
+            Document= Guid.NewGuid().ToString()
         };
 
         public UserCrudComplete(DbTest dbTest)
@@ -45,19 +45,19 @@ namespace TESTE.Data
         }
         private async Task Update() 
         {
-            userEntity.name = Faker.Name.FullName();
+            userEntity.Name = Faker.Name.FullName();
             var result = await userImplementation.UpdateAsync(userEntity);
-            Assert.Equal(userEntity.id, result.id);
+            Assert.Equal(userEntity.Id, result.Id);
             Test(userEntity, result);
         }
         private async Task Delete() 
         {
-            var result = await userImplementation.DeleteAsync(userEntity.id);
+            var result = await userImplementation.DeleteAsync(userEntity.Id);
             Assert.True(result);
         }
         private async Task Get() 
         {
-            var resultGet = await userImplementation.SelectAsync(userEntity.id);
+            var resultGet = await userImplementation.SelectAsync(userEntity.Id);
             Test(userEntity, resultGet);
             var resultGetAll = await userImplementation.SelectAsync();
             Assert.True(resultGetAll.Count() > 0);
@@ -65,10 +65,10 @@ namespace TESTE.Data
         private void Test(UserEntity expected, UserEntity actual) 
         {
             Assert.True(actual != null);
-            Assert.Equal(expected.name, actual.name);
-            Assert.Equal(expected.age, actual.age);
-            Assert.Equal(expected.companyOrPerson, actual.companyOrPerson);
-            Assert.Equal(expected.document, actual.document);
+            Assert.Equal(expected.Name, actual.Name);
+            Assert.Equal(expected.Age, actual.Age);
+            Assert.Equal(expected.CompanyOrPerson, actual.CompanyOrPerson);
+            Assert.Equal(expected.Document, actual.Document);
         }
         
     }

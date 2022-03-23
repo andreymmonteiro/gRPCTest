@@ -19,11 +19,11 @@ namespace TESTE.Service
             mapper = new AutoMapperFixture().GetMapper();
             userEntity = new UserEntity() 
             {
-                id = Guid.NewGuid(),
-                name = Faker.Name.FullName(),
-                age = 29,
-                companyOrPerson = 'F',
-                document = Guid.NewGuid().ToString()
+                Id = Guid.NewGuid(),
+                Name = Faker.Name.FullName(),
+                Age = 29,
+                CompanyOrPerson = 'F',
+                Document = Guid.NewGuid().ToString()
             };
         }
     }

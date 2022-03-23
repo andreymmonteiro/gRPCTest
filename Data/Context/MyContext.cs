@@ -19,14 +19,14 @@ namespace Data.Context
             modelBuilder.Entity<UserEntity>().HasData(
                 new UserEntity() 
                 {
-                    id = Guid.NewGuid(),
-                    name = "Andrey Monteiro",
-                    email = "andreymuti@hotmail.com",
-                    age = 29,
-                    document = "9106989784",
-                    createDate = DateTime.Now,
-                    password = "masterkey",
-                    companyOrPerson = 'F'
+                    Id = Guid.NewGuid(),
+                    Name = "Andrey Monteiro",
+                    Email = "andreymuti@hotmail.com",
+                    Age = 29,
+                    Document = "9106989784",
+                    CreateDate = DateTime.Now,
+                    Password = "masterkey",
+                    CompanyOrPerson = 'F'
                 });
         }
     }

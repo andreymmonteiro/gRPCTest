@@ -26,7 +26,7 @@ namespace gRPCTest.Services
         {
             var result = await _service.FindByLogin<UserEntity>(_mapper.Map<UserEntity>(request));
             var userLoginProDto = _mapper.Map<UserLoginProDto>(result);
-            userLoginProDto.Token = _service.GenerateToken(result.email, _now).AccessToken;
+            userLoginProDto.Token = _service.GenerateToken(result.Email, _now).AccessToken;
             return userLoginProDto;
         }
     }

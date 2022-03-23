@@ -19,9 +19,9 @@ namespace TESTE.Service
 
             var result = await service.Put(userUpdateDto);
             Assert.NotNull(result);
-            Assert.Equal(userUpdateResultDto.name, result.name);
-            Assert.Equal(userUpdateResultDto.age, result.age);
-            Assert.Equal(userUpdateResultDto.document, result.document);
+            Assert.Equal(userUpdateResultDto.Name, result.Name);
+            Assert.Equal(userUpdateResultDto.Age, result.Age);
+            Assert.Equal(userUpdateResultDto.Document, result.Document);
         }
     }
 }

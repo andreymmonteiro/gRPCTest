@@ -23,8 +23,8 @@ namespace Data.Implementations
         {
             try 
             {
-                var result = await _dataSet.AsNoTracking().FirstOrDefaultAsync(item => item.email.Equals(user.email));
-                if (user != null && user.password.Equals(result.password))
+                var result = await _dataSet.AsNoTracking().FirstOrDefaultAsync(item => item.Email.Equals(user.Email));
+                if (user != null && user.Password.Equals(result.Password))
                     return result;
             }
             catch(Exception ex) 

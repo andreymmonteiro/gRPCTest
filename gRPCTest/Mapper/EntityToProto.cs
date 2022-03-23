@@ -8,7 +8,7 @@ namespace gRPCTest.Mapper
     {
         public EntityToProto() 
         {
-            CreateMap<UserEntity, GetUserLoginRequest>().ForMember(destiny => destiny.UserName, options => options.MapFrom(resource => resource.email)).ReverseMap();
+            CreateMap<UserEntity, GetUserLoginRequest>().ForMember(destiny => destiny.UserName, options => options.MapFrom(resource => resource.Email)).ReverseMap();
             CreateMap<UserEntity, UserLoginProDto>().ReverseMap();
         }
     }

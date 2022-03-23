@@ -19,40 +19,43 @@ namespace Data.Migrations
 
             modelBuilder.Entity("Domain.Entities.User.UserEntity", b =>
                 {
-                    b.Property<Guid>("id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
-                    b.Property<int>("age")
+                    b.Property<int>("Age")
                         .HasColumnType("int");
 
-                    b.Property<string>("companyOrPerson")
+                    b.Property<string>("CompanyOrPerson")
                         .IsRequired()
                         .HasColumnType("varchar(1)");
 
-                    b.Property<DateTime>("createDate")
+                    b.Property<DateTime>("CreateDate")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<string>("document")
+                    b.Property<string>("Document")
                         .HasColumnType("varchar(95)");
 
-                    b.Property<string>("email")
+                    b.Property<string>("Email")
                         .HasColumnType("longtext");
 
-                    b.Property<string>("name")
+                    b.Property<Guid>("InvoiceId")
+                        .HasColumnType("char(36)");
+
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(200)
                         .HasColumnType("varchar(200)");
 
-                    b.Property<string>("password")
+                    b.Property<string>("Password")
                         .HasColumnType("longtext");
 
-                    b.Property<DateTime>("updateDate")
+                    b.Property<DateTime>("UpdateDate")
                         .HasColumnType("datetime(6)");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
-                    b.HasIndex("document")
+                    b.HasIndex("Document")
                         .IsUnique();
 
                     b.ToTable("User");
@@ -60,15 +63,16 @@ namespace Data.Migrations
                     b.HasData(
                         new
                         {
-                            id = new Guid("3fdaac34-5509-410d-9850-1ce927d474b1"),
-                            age = 29,
-                            companyOrPerson = "F",
-                            createDate = new DateTime(2022, 1, 31, 21, 58, 0, 495, DateTimeKind.Local).AddTicks(1489),
-                            document = "9106989784",
-                            email = "andreymuti@hotmail.com",
-                            name = "Andrey Monteiro",
-                            password = "masterkey",
-                            updateDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            Id = new Guid("da096e53-2105-42e9-b7dc-31a32124c60d"),
+                            Age = 29,
+                            CompanyOrPerson = "F",
+                            CreateDate = new DateTime(2022, 3, 15, 20, 8, 34, 993, DateTimeKind.Local).AddTicks(918),
+                            Document = "9106989784",
+                            Email = "andreymuti@hotmail.com",
+                            InvoiceId = new Guid("00000000-0000-0000-0000-000000000000"),
+                            Name = "Andrey Monteiro",
+                            Password = "masterkey",
+                            UpdateDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
                 });
 #pragma warning restore 612, 618

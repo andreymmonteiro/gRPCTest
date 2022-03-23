@@ -4,8 +4,6 @@ using Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Data.Repositories
@@ -13,7 +11,7 @@ namespace Data.Repositories
     public class BaseRepository<T> : IRepository<T> where T : BaseEntity
     {
         private readonly MyContext context;
-        private DbSet<T> dataSet;
+        private readonly DbSet<T> dataSet;
 
         public BaseRepository(MyContext context)
         {
@@ -25,7 +23,7 @@ namespace Data.Repositories
         {
             try 
             {
-                var entity = await dataSet.FirstOrDefaultAsync(entity => entity.id == id);
+                var entity = await dataSet.FirstOrDefaultAsync(entity => entity.Id == id);
                 context.Remove(entity);
                 return await context.SaveChangesAsync() > 0;
             }catch (Exception ex) 
@@ -60,7 +58,7 @@ namespace Data.Repositories
             try 
             {
                 
-                return await dataSet.AsNoTracking().FirstOrDefaultAsync(entity => entity.id == id);
+                return await dataSet.AsNoTracking().FirstOrDefaultAsync(entity => entity.Id == id);
                 
             }
             catch (Exception ex) 
@@ -87,10 +85,10 @@ namespace Data.Repositories
             {
                 if(entity != null) 
                 {
-                    var result = await dataSet.AsNoTracking().FirstOrDefaultAsync(item => item.id == entity.id);
+                    var result = await dataSet.AsNoTracking().FirstOrDefaultAsync(item => item.Id == entity.Id);
                     if(result != null) 
                     {
-                        entity.updateDate = DateTime.Now;
+                        entity.UpdateDate = DateTime.Now;
                         context.Update<T>(entity);
                         await context.SaveChangesAsync();
                     }

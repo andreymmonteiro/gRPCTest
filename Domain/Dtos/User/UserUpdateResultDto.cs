@@ -1,18 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Domain.Dtos.User
 {
     public class UserUpdateResultDto
     {
-        public Guid id { get; set; }
-        public DateTime updateDate { get; set; }
-        public string name { get; set; }
-        public string document { get; set; }
-        public int age { get; set; }
-        public char companyOrPerson { get; set; }
+        public Guid Id { get; set; }
+        public DateTime UpdateDate { get; set; }
+        public string Name { get; set; }
+        public string Document { get; set; }
+        public int Age { get; set; }
+        public char CompanyOrPerson { get; set; }
     }
 }

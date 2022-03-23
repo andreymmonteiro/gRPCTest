@@ -20,9 +20,9 @@ namespace TESTE.Service
 
             var result = await service.Post(userCreateDto);
             Assert.NotNull(result);
-            Assert.Equal(userCreateResultDto.name, result.name);
-            Assert.Equal(userCreateResultDto.id, result.id);
-            Assert.Equal(userCreateResultDto.age, result.age);
+            Assert.Equal(userCreateResultDto.Name, result.Name);
+            Assert.Equal(userCreateResultDto.Id, result.Id);
+            Assert.Equal(userCreateResultDto.Age, result.Age);
         }
     }
 }

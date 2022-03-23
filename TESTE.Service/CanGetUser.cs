@@ -15,16 +15,16 @@ namespace TESTE.Service
         {
             UserDto userDto = mapper.Map<UserDto>(userEntity);
             serviceMock = new Mock<IUserService>();
-            serviceMock.Setup(setup => setup.Get(userEntity.id)).ReturnsAsync(userDto);
+            serviceMock.Setup(setup => setup.Get(userEntity.Id)).ReturnsAsync(userDto);
             service = serviceMock.Object;
 
-            var result = await service.Get(userEntity.id);
+            var result = await service.Get(userEntity.Id);
 
             Assert.NotNull(result);
-            Assert.Equal(userDto.name, result.name);
-            Assert.Equal(userDto.id, result.id);
-            Assert.Equal(userDto.document, result.document);
-            Assert.Equal(userDto.age, result.age);
+            Assert.Equal(userDto.Name, result.Name);
+            Assert.Equal(userDto.Id, result.Id);
+            Assert.Equal(userDto.Document, result.Document);
+            Assert.Equal(userDto.Age, result.Age);
 
             List<UserDto> userDtos = new List<UserDto> { userDto };
             serviceMock.Setup(setup => setup.Get()).ReturnsAsync(userDtos);
